@@ -3,8 +3,6 @@ import React from 'react';
 import { FiPlusSquare } from 'react-icons/fi';
 import { Container } from './styles';
 
-import imagem from './logo.svg';
-
 interface IHeaderProps {
   openModal: () => void;
 }
@@ -12,7 +10,6 @@ interface IHeaderProps {
 const Header: React.FC<IHeaderProps> = ({ openModal }) => (
   <Container>
     <header>
-      <img src={imagem} alt="GoRestaurant" />
       <nav>
         <div>
           <button
